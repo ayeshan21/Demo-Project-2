@@ -74,3 +74,15 @@ main{
     padding-left: 0;
     color: #757575;
 }
+
+/* My Plans Styles */
+.my-plans-title{
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 30px;
+}
+.my-plans-div{
+    display: flex;
+    justify-content: space-between; 
+    margin: auto;
+}

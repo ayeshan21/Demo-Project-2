@@ -26,6 +26,7 @@
     font-size: 20px;
     width: 550px;
     margin-bottom: 30px;
+    color: #474747;
 }
 #primary-btn{
     color: #FFFFFF;
@@ -35,4 +36,41 @@
     border-radius: 5px;
     width: 100px;
     margin-right: 315px;
+}
+
+/* Main Styles */
+main{
+    margin-top: 100px;
+}
+
+/* My failures of previous years Section*/
+.my-previous-years-failures{
+    display: flex;
+    gap: 100px;
+    align-items: center;
+    padding: 200px;
+    
+}
+.profile-image img{
+    height: 600px ;
+    width: 500px;
+    background-color: antiquewhite;
+    background-size: cover;
+    border-radius: 50%;
+}
+.section-title{
+    font-size: 40px;
+    width: 300px;
+    margin-bottom: 30px;
+}
+.section-content{
+    font-size: 20px;
+    width: 500px;
+    color: #757575;
+    margin-bottom: 30px;
+}
+.failures-content ul{
+    list-style: none;
+    padding-left: 0;
+    color: #757575;
 }

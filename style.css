@@ -54,7 +54,7 @@
 }
 
 /* Main Styles */
-main>section {
+main section {
     margin-top: 150px;
     margin-bottom: 150px;
 }
@@ -70,11 +70,8 @@ main>section {
 }
 
 .profile-image img {
-    height: 600px;
-    width: 500px;
-    background-color: antiquewhite;
-    background-size: cover;
-    border-radius: 50%;
+    height: 700px;
+    width: 600px;
 }
 
 .section-title {
@@ -90,10 +87,19 @@ main>section {
     margin-bottom: 30px;
 }
 
+.failures-content {
+    margin-top: 150px;
+}
+
 .failures-content ul {
     list-style: none;
     padding-left: 0;
     color: #757575;
+}
+
+.failures-content>ul>li>i {
+    color: rgb(47, 209, 47);
+    margin-right: 10px;
 }
 
 /* My Plans Styles */

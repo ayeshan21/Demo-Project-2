@@ -39,8 +39,8 @@
 }
 
 /* Main Styles */
-main{
-    margin-top: 100px;
+main section{
+    margin-top: 150px;
 }
 
 /* My failures of previous years Section*/
@@ -48,7 +48,8 @@ main{
     display: flex;
     gap: 100px;
     align-items: center;
-    padding: 200px;
+    margin-left: 400px;
+    margin-right: 400px;
     
 }
 .profile-image img{
@@ -81,8 +82,31 @@ main{
     font-size: 40px;
     margin-bottom: 30px;
 }
-.my-plans-div{
+.my-plans-container{
     display: flex;
     justify-content: space-between; 
-    margin: auto;
+    margin: 0px 400px;
+}
+.plans-title{
+    font-size: 30px;
+    margin-top: 20px;
+    text-align: center;
+}
+#plans-description{
+   color: #474747; 
+   font-size: 20px;
+   margin-top: 20px;
+   text-align: center;
+}
+#plans-img-1{
+    margin-left: 90px;
+}
+#plans-img-2{
+    margin-left: 20px;
+}
+#plans-img-3{
+    margin-left: 50px;
+}
+#plans-img-4{
+    margin-left: 35px;
 }
